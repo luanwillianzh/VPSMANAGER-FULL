@@ -465,7 +465,7 @@ SCOLOR='\033[0m'
         fun_v2rayins() {
 			clear
 	        v2rayinst(){
-	            source <(curl -sL https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/master/Modulos/v2ray)
+	            source <(curl -sL https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/main/Modulos/v2ray)
                     sleep 6
 	        }
 	        if netstat -tunlp |grep v2ray 1> /dev/null 2> /dev/null; then
@@ -783,9 +783,9 @@ SCOLOR='\033[0m'
 				cd /etc/stunnel/
 				rm -rf stunnel.conf
 				rm -rf stunnel.pem
-				wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/master/Install/cert
-                wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/master/Install/key
-				wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/master/Install/stunnel
+				wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/main/Install/cert
+                wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/main/Install/key
+				wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/main/Install/stunnel
 				mv cert cert.pem
                 mv key key.pem
 				mv stunnel stunnel.conf
