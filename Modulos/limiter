@@ -1,10 +1,4 @@
 #!/bin/bash
-#====================================================
-#	SCRIPT: LIMITER SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	NOOBS
-#	CONTATO TELEGRAM:	https://t.me/TheMentalistSay
-#	CANAL TELEGRAM:	https://t.me/EhisOpeNer
-#====================================================
 clear
 database="/root/usuarios.db"
 fun_multilogin() {
